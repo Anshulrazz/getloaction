@@ -16,7 +16,8 @@ mongoose.connect('mongodb://mongo:vorYoCFZskzlDydhnkZEcxzsHXWuFRTA@monorail.prox
 const LocationSchema = new mongoose.Schema({
   latitude: Number,
   longitude: Number,
-  url: String
+  url: String,
+  createsAt: { type: Date, default: Date.now }
 });
 
 const Location = mongoose.model('Location', LocationSchema);
