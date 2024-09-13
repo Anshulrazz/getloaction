@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://mongo:vorYoCFZskzlDydhnkZEcxzsHXWuFRTA@monorail.proxy.rlwy.net:46556', {
+mongoose.connect('mongodb+srv://braj70901:isSdFLOkHXzJJFax@testpro.bz2qg3u.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
